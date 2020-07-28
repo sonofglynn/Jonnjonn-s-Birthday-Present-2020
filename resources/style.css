@@ -1,0 +1,169 @@
+:root {
+    --button-space-width: 50%;
+    --cake-width: 60%;
+}
+
+body {
+    background-color: rgb(155,100,200);
+}
+
+h1, 
+h2,
+h3 {
+    text-align: center;
+    font-family: Impact, sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#header {
+    padding: 10px;
+    text-align: center;
+    background: purple;
+    color: white;
+
+}
+
+#buttons-container {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(100,50,230);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Arial-black";
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.breath-time {
+    display: inline-block;
+    width: var(--button-space-width);
+    background-color: coral;
+    padding: 10px;
+    margin: 1px 0px;
+}
+
+#cake-and-flames-container {
+    position: relative;
+}
+
+.cake-container {
+    text-align: center;
+}
+
+.cake {
+    width: 350px;
+    height: 540px;
+    display: inline-block;
+}
+
+#flames-container {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-175px);
+    width: 350px;
+    height:540px;
+
+}
+
+.flame {
+    width: 25px;
+    position: absolute;
+}
+
+.flame:hover {
+    cursor: pointer;
+}
+
+#flame1 {
+    top: 2%;
+    left: 33%;
+    opacity: 0;
+}
+
+#flame2 {
+    top: 1%;
+    left: 46%;
+    opacity: 0;
+}
+
+#flame3 {
+    top: 1.5%;
+    left: 60%;
+    opacity: 0;
+}
+
+#flame4 {
+    top: 23%;
+    left: 17%;
+    opacity: 0;
+}
+
+#flame5 {
+    top: 27%;
+    left: 36%;
+    opacity: 0;
+}
+
+#flame6 {
+    top: 28%;
+    left: 57%;
+    opacity: 0;
+}
+
+#flame7 {
+    top: 23%;
+    left: 75%;
+    opacity: 0;
+}
+
+#flame8 {
+    top: 47%;
+    left: 10%;
+    opacity: 0;
+}
+
+#flame9 {
+    top: 51%;
+    left: 29%;
+    opacity: 0;
+}
+
+#flame10 {
+    top: 52%;
+    left: 50%;
+    opacity: 0;
+}
+
+#flame11 {
+    top: 50.5%;
+    left: 69%;
+    opacity: 0;
+}
+
+#flame12 {
+    top: 46%;
+    left: 85%;
+    opacity: 0;
+}
